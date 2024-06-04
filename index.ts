@@ -15,6 +15,6 @@ if (answergame.Userno===compno){
     console.log("consgratulation, You Win the game")
 }else {
     console.log( `you lost the game. Right number is ${compno} \n `)
-    console.log("-------- Good luck for next -------\n")
+    console.log("-------- Good luck for next time-------\n")
     console.log("***GAME END***")
 }
