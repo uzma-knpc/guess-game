@@ -12,9 +12,10 @@ const answergame = await inquirer.prompt([
 ]);
 if (answergame.Userno === compno) {
     console.log("consgratulation, You Win the game");
+    console.log(`Your Guess number is ${compno} \n `);
 }
 else {
     console.log(`you lost the game. Right number is ${compno} \n `);
-    console.log("-------- Good luck for next time-------\n");
+    console.log("-------- Good luck for next time by-------\n");
     console.log("***GAME END***");
 }
